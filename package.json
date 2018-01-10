@@ -1,0 +1,33 @@
+{
+  "name": "oas2raml",
+  "version": "0.0.1",
+  "description": "OpenAPI Specification to RAML converter",
+  "main": "index.js",
+  "bin": {
+    "oas2raml": "./bin/oas2raml.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pferdinand/oas2raml.git"
+  },
+  "keywords": [
+    "OpenAPI",
+    "Swagger",
+    "RAML",
+    "converter"
+  ],
+  "author": "Philippe Ferdinand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pferdinand/oas2raml/issues"
+  },
+  "homepage": "https://github.com/pferdinand/oas2raml#readme",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "winston": "^2.4.0",
+    "yamljs": "^0.3.0"
+  }
+}
